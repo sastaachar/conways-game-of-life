@@ -1,0 +1,49 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: grid;
+  place-items: center;
+  background: #050313;
+}
+
+.header span {
+  font-family: "VT323", monospace;
+  color: #00a2b1;
+  font-size: 50px;
+}
+
+canvas {
+  position: relative;
+  border: 12px solid #050313;
+  box-sizing: border-box;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(106, 251, 207, 0.5),
+    -2px -2px 8px rgba(106, 251, 207, 0.5);
+}
+
+.panel {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 40%;
+  right: 2%;
+}
+
+.btn {
+  font-family: "VT323", monospace;
+  margin: 10px 0px;
+  color: #f9f871;
+  letter-spacing: 2px;
+  font-size: 32px;
+  cursor: pointer;
+  padding: 2px;
+  width: fit-content;
+}
+.btn:hover {
+  transform: translateY(-4px);
+}
+.btn:active {
+  color: #00a2b1;
+}

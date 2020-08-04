@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=div, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="client/index.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <span>Conway's Game of life</span>
+    </div>
+    <canvas></canvas>
+    <div class="panel">
+      <div class="btn" id="startBtn" onclick="animateGrid()">START</div>
+      <div class="btn" id="stopBtn" onclick=" stopAnimation()">STOP</div>
+      <div class="btn" onclick=" makeShape()">GOSPER</div>
+      <div class="btn" onclick=" clearGrid()">CLEAR</div>
+    </div>
+  </body>
+  <script src="client/src/index.js"></script>
+</html>

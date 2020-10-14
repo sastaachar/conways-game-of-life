@@ -1,5 +1,6 @@
 # Conway's Game of life
 This project is a implementation of [Conway's game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) , with an extra rule to handle the edges of grid.
+The project's implementation can be found [here](https://sastaachar.github.io/conways-game-of-life/)
 
 *Cell* - Has 2 states ( Dead / Alive ) <br />
 *Grid* - Consists of multiple cells
